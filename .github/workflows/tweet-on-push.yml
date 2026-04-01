@@ -15,7 +15,7 @@ jobs:
           message: |
             📝 新增资源: ${{ github.event.head_commit.message }}
             🔗 查看详情: ${{ github.event.head_commit.url }}
-            🔗 超过100T资料总站网站：https://doc.869hr.uk
+            🔗 资源主页：https://xi7ang.github.io
         env:
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
           TWITTER_API_SECRET_KEY: ${{ secrets.TWITTER_API_KEY_SECRET }}
