@@ -1,5 +1,5 @@
 name: 'AIknowledge Notify'
-description: 'A simple GitHub Action to print a message'
+description: 'Notification action for AIknowledge repository'
 author: 'mswnlz'
 inputs:
   message:
@@ -7,5 +7,5 @@ inputs:
     required: false
     default: 'Hello from AIknowledge Action!'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'index.js'
