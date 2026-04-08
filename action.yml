@@ -8,4 +8,4 @@ inputs:
     default: 'Hello from AIknowledge Action!'
 runs:
   using: 'node20'
-  main: 'index.js'
+  main: 'dist/index.js'

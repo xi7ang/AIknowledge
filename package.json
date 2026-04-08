@@ -1,10 +1,16 @@
 {
   "name": "aiknowledge-action",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "@actions/core": "^1.11.1",
     "twitter-api-v2": "^1.23.2"
   },
-  "description": "Notification action for AIknowledge repository"
+  "description": "Notification action for AIknowledge repository",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.4"
+  }
 }
